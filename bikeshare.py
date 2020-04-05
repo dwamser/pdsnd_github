@@ -185,7 +185,7 @@ def user_stats(df):
     print('-'*40)
 
 
-def display_raw_data(df):
+def display_raw(df):
     """
     display raw data that fits the previously provided filters and print the
     data in chunks of 5 lines if the user wants to see more.
@@ -218,7 +218,7 @@ def main():
         station_stats(df)
         trip_duration_stats(df)
         user_stats(df)
-        display_raw_data(df)
+        display_raw(df)
 
         restart = input('\nWould you like to restart? Enter yes if you do.\n')
         if restart.lower() != 'yes':
