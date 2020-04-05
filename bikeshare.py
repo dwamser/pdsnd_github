@@ -203,7 +203,7 @@ def display_raw_data(df):
             start_loc += 5
             end_loc += 5
 
-            continue_display = input('\nDo you want to see more? Enter yes if you do.\n').lower()
+            continue_display = input('\nDon\'t have enough yet? Enter yes if you don\'t.\n').lower()
             if continue_display.lower() != 'yes':
                 break
 
