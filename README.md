@@ -5,7 +5,7 @@ Created on 5th April 2020.
 Bikeshare Data Exploration
 
 ### Description
-Describe what your project is about and what it does
+Bikeshare data is explored using pandas and prints some statistics for the user
 
 ### Files used
 Include the files used
